@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.carousel{
+  height: 600px;
+  padding: 20px;
+}
+.d-block{
+  width: 100%;
+  height: 600px;
+}
+.card{
+  width: 20rem;
+  margin:10px;
+}
+.storeofts{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:100px;
+}
+.foot{
+  color: aliceblue;
+  text-align: center;
+}
+.Mainhead{
+  text-align: center;
+  color: white;
+}
+.User{
+  color: gray;
+  font-size: medium;
+}
+body{
+  background-color:black
+}
+.card{
+  background-color:rgb(40, 41, 39);
+  color: white;
+}
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 50px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.box {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+.inputbox{
+  background-color:black;
+  height: 100px;
+  width: 200px;
+  color: white;
+  font-size:90px;
+}
+.sellbox{
+  margin: 10px;
+  padding: 10px;
+}
+.ethbox{
+  color: white;
+  display: inline-flex;
+}
